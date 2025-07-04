@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="kirkstone"/>
+
+  <remote fetch="https://git.yoctoproject.org"						name="poky"/>
+  <remote fetch="https://github.com/openembedded"		name="meta-openembedded"/>
+  <remote fetch="https://code.qt.io/yocto"						name="meta-qt5"/>
+  <remote fetch="https://github.com/ros"						name="meta-ros"/>
+  <remote fetch="https://github.com/sbabic"					name="meta-swupdate"/>
+  <remote fetch="https://github.com/OSSystems"					name="meta-browser"/>
+  <remote fetch="https://github.com/kraj"						name="meta-clang"/>
+  <remote fetch="git://git.yoctoproject.org"		name="meta-virtualization"/>
+  <remote fetch="git://git.yoctoproject.org"			name="meta-lts-mixins"/>
+  <remote fetch="https://github.com/synaptics-astra"			name="meta-synaptics"/>
+
+  <project remote="poky"					revision="1e0d58c53b7d9c3feb631e46666ae7a3e3614253"  name="poky" path="poky"/>
+  <project remote="meta-openembedded"		revision="8bb16533532b6abc2eded7d9961ab2a108fd7a5b"  name="meta-openembedded" path="meta-openembedded"/>
+  <project remote="meta-qt5"				revision="644ebf220245bdc06e7696ccc90acc97a0dd2566"  name="meta-qt5" path="meta-qt5"/>
+  <project remote="meta-ros"				revision="b4db6314bae1c78498158e267200a9c15a739cad"  name="meta-ros" path="meta-ros"/>
+  <project remote="meta-swupdate"			revision="6918be849ddf1fed5b7a0173e51c7a136e8d4101"  name="meta-swupdate" path="meta-swupdate"/>
+  <project remote="meta-browser"			revision="01eca11a006d1e84f9370f9a094104e3ee72a848"  name="meta-browser" path="meta-browser"/>
+  <project remote="meta-clang"				revision="4711dd7d3e0b072e40d04aa3f75f7c1ca38e1ff8"  name="meta-clang" path="meta-clang"/>
+  <project remote="meta-virtualization"		revision="a055d7dcafc58855081a5eac9a46b93b9b51012b"  name="meta-virtualization" path="meta-virtualization"/>
+  <project remote="meta-lts-mixins"			revision="9bc06b6a761f28cf82aae8a99afe27ed5e2ce4c9"  name="meta-lts-mixins" path="meta-lts-mixins"/>
+  <project remote="meta-synaptics"			revision="60c3ed4d6f9c070e85b5f429873ef729610a16a2"  name="meta-synaptics" path="meta-synaptics"/>
+
+</manifest>
