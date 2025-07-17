@@ -13,7 +13,7 @@
   <remote fetch="git://git.yoctoproject.org"            name="meta-virtualization"/>
   <remote fetch="git://git.yoctoproject.org"            name="meta-lts-mixins"/>
   <remote fetch="https://github.com/synaptics-astra"    name="meta-synaptics"/>
-  <remote fetch="https://github.com/<repo-link>"        name="<repo-name>"/>
+  <remote fetch="https://github.com/<repo-link>"        name="meta-dctt"/>
 
   <project remote="poky"                    revision="1e0d58c53b7d9c3feb631e46666ae7a3e3614253"  name="poky" path="poky"/>
   <project remote="meta-openembedded"       revision="8bb16533532b6abc2eded7d9961ab2a108fd7a5b"  name="meta-openembedded" path="meta-openembedded"/>
@@ -25,6 +25,6 @@
   <project remote="meta-virtualization"     revision="a055d7dcafc58855081a5eac9a46b93b9b51012b"  name="meta-virtualization" path="meta-virtualization"/>
   <project remote="meta-lts-mixins"         revision="9bc06b6a761f28cf82aae8a99afe27ed5e2ce4c9"  name="meta-lts-mixins" path="meta-lts-mixins"/>
   <project remote="meta-synaptics"          revision="60c3ed4d6f9c070e85b5f429873ef729610a16a2"  name="meta-synaptics" path="meta-synaptics"/>
-  <project remote="<repo-name>"             revision="f0ab97e7f45474227e02131188c9b1373a5c7c66"  name="<repo-name>" path="<repo-name>"/>
+  <project remote="meta-dctt"             revision="f0ab97e7f45474227e02131188c9b1373a5c7c66"  name="meta-dctt" path="meta-dctk-syns"/>
 
 </manifest>
