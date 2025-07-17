@@ -13,7 +13,7 @@
   <remote fetch="git://git.yoctoproject.org"            name="meta-virtualization"/>
   <remote fetch="git://git.yoctoproject.org"            name="meta-lts-mixins"/>
   <remote fetch="https://github.com/synaptics-astra"    name="meta-synaptics"/>
-  <remote fetch="https://github.com/<repo-link>"        name="meta-dctt"/>
+  <remote fetch="https://github.com/SBGireesh"        name="meta-dctt"/>
 
   <project remote="poky"                    revision="1e0d58c53b7d9c3feb631e46666ae7a3e3614253"  name="poky" path="poky"/>
   <project remote="meta-openembedded"       revision="8bb16533532b6abc2eded7d9961ab2a108fd7a5b"  name="meta-openembedded" path="meta-openembedded"/>
